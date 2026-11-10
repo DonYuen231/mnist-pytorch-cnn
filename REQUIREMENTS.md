@@ -4,21 +4,21 @@ Work through these in order, one item at a time. See CLAUDE.md for the rules
 that keep the comparison with Part 1 fair.
 
 ## 1. Setup
-- [ ] Create a venv (Windows, Python 3.14)
-- [ ] Install torch (CPU build), torchvision, numpy, and matplotlib
-- [ ] requirements.txt
-- [ ] .gitignore (venv, data, caches, CLAUDE.md, HANDOFF.md, LEARNING_NOTES.md)
-- [ ] Copy the plotting and analysis functions from Part 1's evaluate.py:
-      confusion_matrix, plot_curves, plot_confusion_matrix, and plot_misclassified
-- [ ] git init and first commit (ask first)
+- [x] Create a venv (Windows, Python 3.14)
+- [x] Install torch (CPU build), torchvision, numpy, and matplotlib
+- [x] requirements.txt
+- [x] .gitignore (venv, data, caches, CLAUDE.md, HANDOFF.md, LEARNING_NOTES.md)
+- [x] Copy the plotting and analysis functions from Part 1's evaluate.py into
+      plots.py: confusion_matrix, plot_curves, plot_confusion_matrix, and plot_misclassified
+- [x] git init and first commit
 
 ## 2. Data
-- [ ] Copy load_mnist() and split_data() from Part 1's data.py
-- [ ] Load MNIST with torchvision (fresh download into ./data)
-- [ ] Scale pixels with / 255.0, the same as Part 1
-- [ ] Split with Part 1's split_data() on the NumPy arrays
-- [ ] Check that the validation set matches Part 1's (4,998 images, same labels)
-- [ ] Convert to tensors and batch with a DataLoader (shuffling with a seed)
+- [x] Copy load_mnist() and split_data() from Part 1's data.py
+- [x] Load MNIST with torchvision (fresh download into ./data)
+- [x] Scale pixels with / 255.0, the same as Part 1
+- [x] Split with Part 1's split_data() on the NumPy arrays
+- [x] Check that the validation set matches Part 1's (4,998 images, same labels)
+- [x] Convert to tensors and batch with a DataLoader (shuffling with a seed)
 
 ## 3. Same network in PyTorch
 - [ ] [784, 128, 64, 10] with ReLU, as an nn.Module
