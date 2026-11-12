@@ -21,8 +21,8 @@ that keep the comparison with Part 1 fair.
 - [x] Convert to tensors and batch with a DataLoader (shuffling with a seed)
 
 ## 3. Same network in PyTorch
-- [ ] [784, 128, 64, 10] with ReLU, as an nn.Module
-- [ ] He init on every layer's weights and zero biases, to match Part 1
+- [x] [784, 128, 64, 10] with ReLU, as an nn.Module
+- [x] He init on every layer's weights and zero biases, to match Part 1
 - [ ] nn.CrossEntropyLoss and plain SGD: learning rate 0.1, batch size 16, 20 epochs
 - [ ] Track train and validation loss and accuracy every epoch
 - [ ] Run 3 seeds and check validation lands near 98.3% (inside the seed spread)
