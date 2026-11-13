@@ -23,9 +23,9 @@ that keep the comparison with Part 1 fair.
 ## 3. Same network in PyTorch
 - [x] [784, 128, 64, 10] with ReLU, as an nn.Module
 - [x] He init on every layer's weights and zero biases, to match Part 1
-- [ ] nn.CrossEntropyLoss and plain SGD: learning rate 0.1, batch size 16, 20 epochs
-- [ ] Track train and validation loss and accuracy every epoch
-- [ ] Run 3 seeds and check validation lands near 98.3% (inside the seed spread)
+- [x] nn.CrossEntropyLoss and plain SGD: learning rate 0.1, batch size 16, 20 epochs
+- [x] Track train and validation loss and accuracy every epoch
+- [x] Run 3 seeds and check validation lands near 98.3% (inside the seed spread)
 
 ## 4. CNN
 - [ ] Reshape input to (N, 1, 28, 28)
