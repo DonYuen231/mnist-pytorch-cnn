@@ -28,8 +28,8 @@ that keep the comparison with Part 1 fair.
 - [x] Run 3 seeds and check validation lands near 98.3% (inside the seed spread)
 
 ## 4. CNN
-- [ ] Reshape input to (N, 1, 28, 28)
-- [ ] Start small: a couple of Conv2d and pooling layers, then a dense layer
+- [x] Reshape input to (N, 1, 28, 28)
+- [x] Start small: a couple of Conv2d and pooling layers, then a dense layer
 - [ ] Tune on validation over 3 seeds, like Part 1's experiments.py
 - [ ] Plain SGD first
 - [ ] Extra experiment: momentum or Adam, reported separately from the main comparison
